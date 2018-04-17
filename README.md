@@ -19,7 +19,7 @@ inotify ../foo bar
 
 Monitor only file creation and deleting in directories ./foo and /home/ubuntu/:
 ```
-inotify --mask IN_CREATE --IN_DELETE foo /home/ubuntu/
+inotify --mask IN_CREATE --mask IN_DELETE foo /home/ubuntu/
 ```
 
 Leave it running overnight:
