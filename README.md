@@ -1,4 +1,4 @@
-# Inotify
+# Inotify.
 
 Simple program for monitoring file system events on Linux. 
 
